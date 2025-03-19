@@ -326,7 +326,13 @@ img {
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
   height: 10vh; /*Full viewport height */
+
 }
+
+.container-modif-hiba a{
+  margin-right: 10px;
+}
+
 .fa, .fab, .fad, .fal, .far, .fas {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

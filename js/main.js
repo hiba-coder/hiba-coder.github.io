@@ -54,6 +54,21 @@
         return false;
     });
 
+    //HIBA
+    $(document).ready(function () {
+        $(".toggleText").on("click", function () {
+            var moreText = $("#moreText");
+            var triggerText = $(this); // The clicked <p> element
+
+            if (moreText.is(":hidden")) {
+                moreText.show();
+                triggerText.text("Show Less"); // Change <p> text when expanded
+            } else {
+                moreText.hide();
+                triggerText.text("Continue Reading"); // Change <p> text when collapsed
+            }
+        });
+    });
 
 })(jQuery);
 
